@@ -1,0 +1,159 @@
+@import @import @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,600&family=Raleway:wght@600&family=Work+Sans:wght@600&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  margin: 90px 0 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 200px) {
+  .header-left, .header-right {
+    width: 100%;     
+  }
+}
+
+iframe {
+  margin-bottom: 40px;
+}
+
+img {
+  max-width: 100%;
+}
+
+section h2 {
+  text-align: center;
+  padding: 20px;
+  font-size: 35px;
+}
+
+.btn {
+  background-color: #00A800; 
+  box-shadow: 2px 2px 2px #adff2f;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px 25px;
+  position: relative;
+  transition: all 0.1s ease;
+}
+
+.btn-ghost:active {
+  transform: none;
+}
+
+.btn:active {
+  box-shadow: 0 0 0 #8a7400;
+  transform: translate(2px 2px);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0, auto;
+}
+
+/* nav & header */
+
+nav {
+  background-color: #00A800;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  padding: 25px 15px; 
+  position: fixed;
+  top: 0px; 
+  left: 0;
+  width: 100%;
+  z-index: 100%;
+}
+
+.nav-link {
+  color: #ffffff;
+  margin: 0, 15px;
+  padding: 0px 20px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.header-left {
+  padding: 10px 20px;
+  width: 40%;
+}
+
+.header-right {
+  align-items: right;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+/* Features Section */
+.feature {
+  box-shadow: 2px 2px 10px #00A800;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  margin: 5px 1.66%;
+  padding: 30px;
+}
+
+.feature i {
+  margin-top: 15px;
+  color: #00A800;
+  font-size: 30px;
+}
+
+.feature h2 {
+  font-size: 25px;
+  margin-top: 5px;  
+}
+
+.feature p {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+/* Form section*/
+form {
+  margin-bottom: 40px;
+}
+
+form .flex {
+  display: flex;
+}
+
+form input[type="email"] {
+  border-radius: 5px;
+  color: black;
+  display: inline-block;
+  padding: 10px 25px;
+  margin-right: 10px;
+  border: 0;
+  font-size: 14px;
+  flex: 1px;
+}
+
+.bg-yellow {
+  background-color: #00A800;
+}
+
+/* Footer Styling */
+footer {
+  background-color: silver;
+  color: black;
+  padding: 10px;
+  text-align: left; 
+  font-size: 12px;
+}
